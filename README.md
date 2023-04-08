@@ -32,6 +32,7 @@ The App is built and tested on physical IOS device
 
 ---
 ##TEST CASES
+
 ###Adding an invoice:
 Test that a user can add a new invoice.
 Test that the user must fill in all required fields (e.g. invoice number, rep name, date, amount).
