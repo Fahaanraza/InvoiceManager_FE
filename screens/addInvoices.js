@@ -5,6 +5,7 @@ import { errormessage, formgroup, head1, head2, input, input1, label, link, link
 import axios from 'axios';
 import { showMessage, hideMessage } from "react-native-flash-message";
 import {url} from '../constants/url';
+import RNDateTimePicker from '@react-native-community/datetimepicker';
 
 const AddInvoices = ({ navigation }) => {
     const [fdata, setFdata] = useState({
@@ -134,10 +135,8 @@ const AddInvoices = ({ navigation }) => {
 
             <View style={formgroup}>
                 <Text style={label}>Invoice Date</Text>
-                <TextInput style={input} placeholder="Enter Invoice date"
-                    onPressIn={() => setErrormsg(null)}
-                    onChangeText={(text) => setFdata({ ...fdata, invoiceDate: text })}
-                />
+                <RNDateTimePicker style={input} mode="date" value={date} onChange={setInvoiceDate} />
+
             </View>
 
             <View style={formgroup}>
@@ -159,10 +158,7 @@ const AddInvoices = ({ navigation }) => {
 
             <View style={formgroup}>
                 <Text style={label}>Collection Date</Text>
-                <TextInput style={input} placeholder="Enter Collection date"
-                        onPressIn={() => setErrormsg(null)}
-                        onChangeText={(text) => setFdata({ ...fdata, collectionDate: text })}
-                    />
+                <RNDateTimePicker style={input} mode="date" value={date} onChange={setCollectionDate} />
             </View>
 
 
