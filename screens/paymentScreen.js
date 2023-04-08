@@ -27,7 +27,7 @@ const PaymentScreen = ({ route, navigation }) => {
 	
 
 	const submit=async()=>{
-		if (pendingAmount.toString()<amount) {
+		if (pendingAmount < +amount) {
 			showMessage({
 				message: "Please enter Amount less than Pending amount",
 				type: "danger",
