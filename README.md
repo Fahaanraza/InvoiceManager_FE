@@ -10,6 +10,7 @@ The App is built and tested on physical IOS device
 ## Prequsities to run the app:
 1. Node
 2. ngrok(go to website and download then setup the config)
+3. EXPO GO app on ios device
 
 ---
 
@@ -23,6 +24,8 @@ The App is built and tested on physical IOS device
 5. open constants/url.js and paste the Forwarding link.
 <img width="847" alt="Screenshot 2023-04-08 at 06 58 35" src="https://user-images.githubusercontent.com/47321056/230697416-6a0869b5-d246-477e-8513-31d4def3a1c2.png">
 6. now run npm start from the creditail folder.
+7. open camera on IOS device and scan the QR code from the terminal.
+8.YOLA app is working on the IOS device.
 
 ---
 ## Major functionality’s 
