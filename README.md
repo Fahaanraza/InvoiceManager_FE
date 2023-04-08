@@ -7,13 +7,13 @@ The App is built and tested on physical IOS device
 
 ---
 
-##Prequsities to run the app:
+## Prequsities to run the app:
 1. Node
 2. ngrok(go to website and download then setup the config)
 
 ---
 
-##Getting started with the App
+## Getting started with the App
 
 1. Download the repo.
 2. move to crediail folder from terminal.
@@ -25,30 +25,30 @@ The App is built and tested on physical IOS device
 6. now run npm start from the creditail folder.
 
 ---
-##Major functionality’s 
+## Major functionality’s 
 1. adding invoice.
 2. updating pending amount.
 3. fetching all the invoices.
 
 ---
-##TEST CASES
+## TEST CASES
 
-###Adding an invoice:
+### Adding an invoice:
 Test that a user can add a new invoice.
 Test that the user must fill in all required fields (e.g. invoice number, rep name, date, amount).
 Test that the user is shown an error message if they try to add an invoice with missing or invalid information.
 
-###Fetching invoices:
+### Fetching invoices:
 Test that the user can view a list of all invoices.
 Test that the user can see the list of updated invoices after adding/updating existing invoices without reloading.
 Test that the user is shown an error message if there is an issue with fetching the invoices.
 
-###Updating invoices:
+### Updating invoices:
 Test that the user can update an existing invoice with pending amount.
 Test that the user must fill in all required fields when updating an invoice.
 Test that the user is shown an error message if they try to update an invoice with missing or invalid information.
 
-###Error handling:
+### Error handling:
 Test that the user is shown an error message if there is an issue with adding, fetching, updating an invoice.
 Test that the error message provides helpful information on how to resolve the issue (e.g. network error, invalid input).
 
