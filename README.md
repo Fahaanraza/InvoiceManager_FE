@@ -13,6 +13,39 @@ The App is built and tested on physical IOS device
 3. EXPO GO app on ios device
 
 ---
+## Design for the app
+### Frontend:
+
+Use React native JavaScript to create a web application that replicates the design provided in the Figma.
+
+Implement a form to add new invoices by the user for better testing and performance.
+
+Implement a dashboard that shows the list of invoices. Each invoice should display the customer name, invoice number, and pending amount.
+
+Allow the user to select an invoice from the list to edit the amount and select the payment method.
+
+Once the user has made their changes, provide a "confirm" button that submits the updated invoice data to the backend.
+
+On successful payment, display a success screen that acknowledges the payment success.
+
+### Backend:
+
+Create a database schema that accommodates the invoices, which includes fields for customer name, invoice number, amount, and payment status and more info from the BE sheeet.
+
+Build an Insert API that allows the frontend to add new invoices to the database.
+
+Build a Read API that retrieves the invoice data from the database and sends it to the frontend for display.
+
+Build a Payment API that updates the invoice's pending amount and payment status after the user has made a payment.
+
+Ensure that the backend APIs are secured and that appropriate authentication and authorization mechanisms are in place.
+
+Test the backend APIs to ensure that they are working correctly, and handle any errors or exceptions that may arise during the process.
+
+
+
+
+---
 
 ## Getting started with the App
 
